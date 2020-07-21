@@ -1,6 +1,8 @@
-const PortfolioData = {
+const portfolioData = {
   name: 'Duncan Moyo',
   role: 'Frontend Developer',
+  email: 'duncanfmoyo@gmail.com',
+  phoneNumber: '+27 67 073 7874',
   roleDescription: "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
   socialLinks: [
     {
