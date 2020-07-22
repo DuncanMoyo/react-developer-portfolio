@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from "./css/Style.module.css";
+import classes from "../assets/css/Style.module.css";
 import portfolioData from "../PortfolioData";
 import {Progress} from 'reactstrap';
 
