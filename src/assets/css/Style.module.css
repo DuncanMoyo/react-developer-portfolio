@@ -436,36 +436,36 @@ a:hover {
 /*--------------------------------------------------------------
 # Nav Bar
 --------------------------------------------------------------*/
-.navbar-b {
+.navbarB {
   transition: all .5s ease-in-out;
   background-color: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
 
-.navbar-b.navbar-reduce {
+.navbarB.navbarReduce {
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
-.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+.navbarB.navbarTrans .navItem, .navbarB.navbarReduce .navItem {
   position: relative;
   padding-right: 10px;
   padding-left: 0;
 }
 
 @media (min-width: 768px) {
-  .navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+  .navbarB.navbarTrans .navItem, .navbarB.navbarReduce .navItem {
     padding-left: 10px;
   }
 }
 
-.navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
+.navbarB.navbarTrans .navLink, .navbarB.navbarReduce .navLink {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-.navbar-b.navbar-trans .nav-link:before, .navbar-b.navbar-reduce .nav-link:before {
+.navbarB.navbarTrans .navLink:before, .navbarB.navbarReduce .navLink:before {
   content: '';
   position: absolute;
   margin-left: 0px;
@@ -477,122 +477,122 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .navbar-b.navbar-trans .nav-link:before, .navbar-b.navbar-reduce .nav-link:before {
+  .navbarB.navbarTrans .navLink:before, .navbarB.navbarReduce .navLink:before {
     margin-left: 18px;
   }
 }
 
-.navbar-b.navbar-trans .nav-link:hover, .navbar-b.navbar-reduce .nav-link:hover {
+.navbarB.navbarTrans .navLink:hover, .navbarB.navbarReduce .navLink:hover {
   color: #1B1B1B;
 }
 
-.navbar-b.navbar-trans .nav-link:hover:before, .navbar-b.navbar-reduce .nav-link:hover:before {
+.navbarB.navbarTrans .navLink:hover:before, .navbarB.navbarReduce .navLink:hover:before {
   width: 35px;
 }
 
-.navbar-b.navbar-trans .show > .nav-link:before,
-.navbar-b.navbar-trans .active > .nav-link:before,
-.navbar-b.navbar-trans .nav-link.show:before,
-.navbar-b.navbar-trans .nav-link.active:before, .navbar-b.navbar-reduce .show > .nav-link:before,
-.navbar-b.navbar-reduce .active > .nav-link:before,
-.navbar-b.navbar-reduce .nav-link.show:before,
-.navbar-b.navbar-reduce .nav-link.active:before {
+.navbarB.navbarTrans .show > .navLink:before,
+.navbarB.navbarTrans .active > .navLink:before,
+.navbarB.navbarTrans .navLink.show:before,
+.navbarB.navbarTrans .navLink.active:before, .navbarB.navbarReduce .show > .navLink:before,
+.navbarB.navbarReduce .active > .navLink:before,
+.navbarB.navbarReduce .navLink.show:before,
+.navbarB.navbarReduce .navLink.active:before {
   width: 35px;
 }
 
-.navbar-b.navbar-trans .nav-link:before {
+.navbarB.navbarTrans .navLink:before {
   background-color: #fff;
 }
 
-.navbar-b.navbar-trans .nav-link:hover {
+.navbarB.navbarTrans .navLink:hover {
   color: #fff;
 }
 
-.navbar-b.navbar-trans .show > .nav-link,
-.navbar-b.navbar-trans .active > .nav-link,
-.navbar-b.navbar-trans .nav-link.show,
-.navbar-b.navbar-trans .nav-link.active {
+.navbarB.navbarTrans .show > .navLink,
+.navbarB.navbarTrans .active > .navLink,
+.navbarB.navbarTrans .navLink.show,
+.navbarB.navbarTrans .navLink.active {
   color: #fff;
 }
 
-.navbar-b.navbar-reduce {
+.navbarB.navbarReduce {
   transition: all .5s ease-in-out;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.navbar-b.navbar-reduce .nav-link {
+.navbarB.navbarReduce .navLink {
   color: #0078ff;
 }
 
-.navbar-b.navbar-reduce .nav-link:before {
+.navbarB.navbarReduce .navLink:before {
   background-color: #0078ff;
 }
 
-.navbar-b.navbar-reduce .nav-link:hover {
+.navbarB.navbarReduce .navLink:hover {
   color: #0078ff;
 }
 
-.navbar-b.navbar-reduce .show > .nav-link,
-.navbar-b.navbar-reduce .active > .nav-link,
-.navbar-b.navbar-reduce .nav-link.show,
-.navbar-b.navbar-reduce .nav-link.active {
+.navbarB.navbarReduce .show > .navLink,
+.navbarB.navbarReduce .active > .navLink,
+.navbarB.navbarReduce .navLink.show,
+.navbarB.navbarReduce .navLink.active {
   color: #0078ff;
 }
 
-.navbar-b.navbar-reduce .navbar-brand {
+.navbarB.navbarReduce .navbarBrand {
   color: #0078ff;
 }
 
-.navbar-b.navbar-reduce .navbar-toggler span {
+.navbarB.navbarReduce .navbarToggler span {
   background-color: #1B1B1B;
 }
 
-.navbar-b .navbar-brand {
+.navbarB .navbarBrand {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 600;
 }
 
-.navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
-.navbar-b .dropdown.show .dropdown-menu,
-.navbar-b .dropdown-btn.show .dropdown-menu {
+.navbarB .navbarNav .dropdownItem.show .dropdownMenu,
+.navbarB .dropdown.show .dropdownMenu,
+.navbarB .dropdownBtn.show .dropdownMenu {
   transform: translate3d(0px, 0px, 0px);
   visibility: visible !important;
 }
 
-.navbar-b .dropdown-menu {
+.navbarB .dropdownMenu {
   margin: 1.12rem 0 0;
   border-radius: 0;
 }
 
-.navbar-b .dropdown-menu .dropdown-item {
+.navbarB .dropdownMenu .dropdownItem {
   padding: .7rem 1.7rem;
   transition: all 500ms ease;
 }
 
-.navbar-b .dropdown-menu .dropdown-item:hover {
+.navbarB .dropdownMenu .dropdownItem:hover {
   background-color: #0078ff;
   color: #fff;
   transition: all 500ms ease;
 }
 
-.navbar-b .dropdown-menu .dropdown-item.active {
+.navbarB .dropdownMenu .dropdownItem.active {
   background-color: #0078ff;
 }
 
 /*--/ Hamburger Navbar /--*/
-.navbar-toggler {
+.navbarToggler {
   position: relative;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active {
+.navbarToggler:focus,
+.navbarToggler:active {
   outline: 0;
 }
 
-.navbar-toggler span {
+.navbarToggler span {
   display: block;
   background-color: #fff;
   height: 3px;
@@ -604,12 +604,12 @@ a:hover {
   opacity: 1;
 }
 
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
+.navbarToggler span:nth-child(1),
+.navbarToggler span:nth-child(3) {
   transition: transform .35s ease-in-out;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
+.navbarToggler:not(.collapsed) span:nth-child(1) {
   position: absolute;
   left: 12px;
   top: 10px;
@@ -617,13 +617,13 @@ a:hover {
   opacity: 0.9;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
+.navbarToggler:not(.collapsed) span:nth-child(2) {
   height: 12px;
   visibility: hidden;
   background-color: transparent;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
+.navbarToggler:not(.collapsed) span:nth-child(3) {
   position: absolute;
   left: 12px;
   top: 10px;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import classes from "../assets/css/Style.module.css";
 import portfolioData from "../PortfolioData";
-import {Progress} from 'reactstrap';
+import profilPicture from '../assets/img/testimonial-2.jpg'
 
 class About extends Component {
   render() {
@@ -21,7 +21,7 @@ class About extends Component {
                       <div className="col-sm-6 col-md-5">
                         <div className="about-img">
                           <img
-                            src="img/testimonial-2.jpg"
+                            src={profilPicture}
                             className="img-fluid rounded b-shadow-a"
                             alt=""
                           />
@@ -54,18 +54,13 @@ class About extends Component {
                         return (
                           <div>
                             <span><strong>{skill.skillName}</strong></span>{" "}
-                            <strong><span style={{float: 'right'}}>{skill.skillLevel}%</span></strong>
-                            
+                            <strong><span style={{float: 'right'}}>{skill.skillLevel}%</span></strong>   
                             <div className={classes.Progress}>
-                              
                               <div
                                 className={classes.ProgressBar}
                                 role="progressbar"
                                 style={{
-                                  width: "85%",
-                                  ariaValuenow: "85",
-                                  ariaValuemin: "0",
-                                  ariaValuemax: "100",
+                                  width: `${skill.skillLevel}%`
                                 }}
                               ></div>
                             </div>
@@ -80,23 +75,7 @@ class About extends Component {
                         <h5 className={classes.TitleLeft}>About me</h5>
                       </div>
                       <p className="lead">
-                        Curabitur non nulla sit amet nisl tempus convallis quis
-                        ac lectus. Curabitur arcu erat, accumsan id imperdiet
-                        et, porttitor at sem. Praesent sapien massa, convallis a
-                        pellentesque nec, egestas non nisi. Nulla porttitor
-                        accumsan tincidunt.
-                      </p>
-                      <p className="lead">
-                        Mauris blandit aliquet elit, eget tincidunt nibh
-                        pulvinar a. Vivamus suscipit tortor eget felis porttitor
-                        volutpat. Vestibulum ac diam sit amet quam vehicula
-                        elementum sed sit amet dui. porttitor at sem.
-                      </p>
-                      <p className="lead">
-                        Nulla porttitor accumsan tincidunt. Quisque velit nisi,
-                        pretium ut lacinia in, elementum id enim. Nulla
-                        porttitor accumsan tincidunt. Mauris blandit aliquet
-                        elit, eget tincidunt nibh pulvinar a.
+                          {portfolioData.aboutMe}
                       </p>
                     </div>
                   </div>
