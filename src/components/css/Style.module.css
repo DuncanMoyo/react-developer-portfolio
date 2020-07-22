@@ -120,31 +120,31 @@ a:hover {
 }
 
 /*--/ Sections /--*/
-.sect-4 {
+.Sect4 {
   padding: 4rem 0;
 }
 
-.sect-pt4 {
+.SectPt4 {
   padding-top: 4rem;
 }
 
-.sect-mt4 {
+.SectMt4 {
   margin-top: 4rem;
 }
 
 /*--/ Title s /--*/
-.title-s {
+.TitleS {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
 
 /*--/ Title A /--*/
-.title-box {
+.TitleBox {
   margin-bottom: 4rem;
 }
 
-.title-a {
+.TitleA {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -162,16 +162,16 @@ a:hover {
 }
 
 /*--/ Title Left /--*/
-.title-box-2 {
+.TitleBox2 {
   margin-bottom: 3rem;
 }
 
-.title-left {
+.TitleLeft {
   font-size: 2rem;
   position: relative;
 }
 
-.title-left:before {
+.TitleLeft:before {
   content: '';
   position: absolute;
   height: 3px;
@@ -185,7 +185,7 @@ a:hover {
   padding-left: 2rem;
 }
 
-.box-shadow-full {
+.BoxShadowFull {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
@@ -195,7 +195,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .box-shadow-full {
+  .BoxShadowFull {
     padding: 3rem;
   }
 }
@@ -227,7 +227,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-/*------/ Ul resect /------*/
+/*------/ Ul reSect /------*/
 .ul-resect, .socials ul, .list-ico, .blog-wrapper .post-meta ul, .box-comments .list-comments, .widget-sidebar .list-sidebar, .widget-tags ul {
   list-style: none;
   padding-left: 0;
@@ -722,38 +722,38 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-mf .box-shadow-full {
+.AboutMf .BoxShadowFull {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.about-mf .about-img {
+.AboutMf .About-img {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
+.AboutMf .About-img img {
   margin-left: 10px;
 }
 
 @media (min-width: 767px) {
-  .about-mf .box-pl2 {
+  .AboutMf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
 }
 
-.skill-mf span {
+.SkillMf span {
   color: #4e4e4e;
 }
 
-.skill-mf .progress {
+.SkillMf .Progress {
   background-color: #cde1f8;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
 }
 
-.skill-mf .progress .progress-bar {
+.SkillMf .Progress .ProgressBar {
   height: .7rem;
   background-color: #0078ff;
 }
