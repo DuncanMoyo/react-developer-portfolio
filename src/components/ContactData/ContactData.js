@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Input from "../Input/Input";
 import classes from './ContactData.module.css'
+import overlay from '../../assets/img/overlay-bg.jpg'
 
 class ContactData extends Component {
   state = {
@@ -147,10 +148,57 @@ class ContactData extends Component {
     );
 
     return (
-      <div className={classes.ContactData}>
-        <h4>Get in touch with us</h4>
-        {form}
+    <section className={classes.paralaxMf, classes.footerParalax, classes.bgImage, classes.sectMt4} style={{backgroundImage: `url(${overlay})`}}>
+      <div className={classes.overlayMf}></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className={classes.contactMf}>
+              <div id="contact" className={classes.boxShadowFull}>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className={classes.titlebox2}>
+                      <h5 className={classes.titleleft}>
+                        Send Message Us
+                      </h5>
+                    </div>
+                    {form}
+                  </div>
+                  <div className="col-md-6">
+                    <div className={classes.titleBox2}>
+                      <h5 className={classes.titleLeft}>
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div className="more-info">
+                      <p className="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                        expedita aperiam aliquid at.
+                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                        mollitia inventore?
+                      </p>
+                      <ul className="listIco">
+                        <li><span className="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                        <li><span className="ion-ios-telephone"></span> (617) 557-0089</li>
+                        <li><span className="ion-email"></span> contact@example.com</li>
+                      </ul>
+                    </div>
+                    <div className="socials">
+                      <ul>
+                        <li><a href=""><span className="ico-circle"><i className="ion-social-facebook"></i></span></a></li>
+                        <li><a href=""><span className="ico-circle"><i className="ion-social-instagram"></i></span></a></li>
+                        <li><a href=""><span className="ico-circle"><i className="ion-social-twitter"></i></span></a></li>
+                        <li><a href=""><span className="ico-circle"><i className="ion-social-pinterest"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
     )
   }
 

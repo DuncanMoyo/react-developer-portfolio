@@ -49,7 +49,7 @@ a:hover {
   color: #4e4e4e;
 }
 
-.box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
+.box-shadow, .paralaxMf, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -103,7 +103,7 @@ a:hover {
   opacity: .7;
 }
 
-.paralax-mf {
+.paralaxMf {
   position: relative;
   padding: 8rem 0;
 }
@@ -209,7 +209,7 @@ a:hover {
   display: inline-block;
 }
 
-.socials .ico-circle {
+.socials .icoCircle {
   height: 40px;
   width: 40px;
   font-size: 1.7rem;
@@ -220,7 +220,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.socials .ico-circle:hover {
+.socials .icoCircle:hover {
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
@@ -228,17 +228,17 @@ a:hover {
 }
 
 /*------/ Ul reSect /------*/
-.ul-resect, .socials ul, .list-ico, .blog-wrapper .post-meta ul, .box-comments .list-comments, .widget-sidebar .list-sidebar, .widget-tags ul {
+.ul-resect, .socials ul, .listIco, .blog-wrapper .post-meta ul, .box-comments .list-comments, .widget-sidebar .list-sidebar, .widget-tags ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
 
-.list-ico {
+.listIco {
   line-height: 2;
 }
 
-.list-ico span {
+.listIco span {
   color: #0078ff;
   margin-right: 10px;
 }
@@ -1029,16 +1029,16 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.footer-paralax {
+.footerParalax {
   padding: 4rem 0 0 0;
 }
 
-.contact-mf {
+.contactMf {
   margin-top: 4rem;
 }
 
 @media (min-width: 767px) {
-  .contact-mf .box-pl2 {
+  .contactMf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
