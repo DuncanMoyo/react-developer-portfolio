@@ -41,7 +41,7 @@ a:hover {
   color: #0078ff;
 }
 
-.color-d {
+.colorD {
   color: #f5f5f5;
 }
 
@@ -63,7 +63,7 @@ a:hover {
   line-height: 1.1;
 }
 
-.display-6 {
+.display6 {
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.1;
@@ -76,7 +76,7 @@ a:hover {
   overflow: hidden;
 }
 
-.bg-image {
+.bgImage {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -84,16 +84,16 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
-  .bg-image {
+  .bgImage {
     background-attachment: scroll;
   }
 }
 
-.overlay-mf {
+.overlayMf {
   background-color: #0078ff;
 }
 
-.overlay-mf {
+.overlayMf {
   position: absolute;
   top: 0;
   left: 0px;
@@ -108,13 +108,13 @@ a:hover {
   padding: 8rem 0;
 }
 
-.display-table {
+.displayTable {
   width: 100%;
   height: 100%;
   display: table;
 }
 
-.table-cell {
+.tableCell {
   display: table-cell;
   vertical-align: middle;
 }
@@ -640,12 +640,12 @@ a:hover {
   color: #fff;
 }
 
-.intro .intro-content {
+.intro .introContent {
   text-align: center;
   position: absolute;
 }
 
-.intro .overlay-itro {
+.intro .overlayIntro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -656,66 +656,66 @@ a:hover {
   opacity: .9;
 }
 
-.intro .intro-title {
+.intro .introTitle {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
 }
 
 @media (min-width: 768px) {
-  .intro .intro-title {
+  .intro .introTitle {
     font-size: 4.5rem;
   }
 }
 
-.intro .intro-subtitle {
+.intro .introSubtitle {
   font-size: 1.5rem;
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  .intro .intro-subtitle {
+  .intro .introSubtitle {
     font-size: 2.5rem;
   }
 }
 
-.intro .text-slider-items {
+.intro .textSliderItems {
   display: none;
 }
 
-.intro-single {
+.introSingle {
   height: 350px;
 }
 
-.intro-single .intro-content {
+.introSingle .introContent {
   margin-top: 30px;
 }
 
-.intro-single .intro-title {
+.introSingle .introTitle {
   text-transform: uppercase;
   font-size: 3rem;
 }
 
 @media (min-width: 768px) {
-  .intro-single .intro-title {
+  .introSingle .introTitle {
     font-size: 3.5rem;
   }
 }
 
-.intro-single .breadcrumb {
+.introSingle .breadcrumb {
   background-color: transparent;
   color: #0078ff;
 }
 
-.intro-single .breadcrumb .breadcrumb-item:before {
+.introSingle .breadcrumb .breadcrumb-item:before {
   color: #cde1f8;
 }
 
-.intro-single .breadcrumb .breadcrumb-item.active {
+.introSingle .breadcrumb .breadcrumb-item.active {
   color: #cde1f8;
 }
 
-.intro-single .breadcrumb a {
+.introSingle .breadcrumb a {
   color: #fff;
 }
 
